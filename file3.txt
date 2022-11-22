@@ -1,0 +1,36 @@
+pwd
+mkdir test3
+cd test3
+touch 4 5 6
+nano 4
+row1
+row2
+row3
+row4
+nano 5
+row1
+row2
+row3
+row4
+nano 6
+row1
+row2
+row3
+row4
+grep row2 5
+cd -
+grep -R row test3
+cd test3
+grep -c row 6
+find . -name 5
+find . -name 4 -delete
+echo test > 4
+echo fail > 4
+echo test >> 4
+pc x
+kill 666
+ping artsiomrusau.com
+ping -c 5 artsiomrusau.com
+curl https://petstore.swagger.io/v2/pet/findBystatus
+curl -X post https://petstore.swagger.io/v2/user --data "id=555" --data "firstName=QQQ" --data "lastName=QQQ" --data "email=vvv@mail.ru" --data "password=qwerty" --data "phone=1234567" --data "userstatus=234"
+
